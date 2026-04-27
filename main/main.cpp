@@ -10,8 +10,7 @@ Game *game = nullptr;
 SDL_AppResult SDL_AppInit(void** appstate, int argc, char* argv[])
 {
     game = new Game;
-    game->initialize();
-
+    game->initialize();  // this initializes
     return game->sdl_AppResult;  /* carry on with the program! */
 }
 
