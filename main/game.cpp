@@ -2,6 +2,8 @@
 #include <iostream>
 
 Game::Game(){
+    renderer = NULL;
+    window = NULL;
     screenHeight = 0;
     screenWidth = 0;
     sdl_AppResult = SDL_APP_FAILURE;
